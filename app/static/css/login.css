@@ -1,26 +1,8 @@
-<h2>Vertigo Robotics Development Portal V1</h2>
 
-<link rel="stylesheet" href="../static/css/login.css">
-<script>
-const signUpButton = document.getElementById('signUp');
-const signInButton = document.getElementById('signIn');
-const container = document.getElementById('container');
-
-signUpButton.addEventListener('click', () => {
-	container.classList.add("right-panel-active");
-});
-
-signInButton.addEventListener('click', () => {
-	container.classList.remove("right-panel-active");
-});
-</script>
-<style>
-    
 @import url('https://fonts.googleapis.com/css?family=Montserrat:400,800');
 
 * {
 	box-sizing: border-box;
-    overflow-y: hidden;
 }
 
 body {
@@ -268,30 +250,3 @@ footer a {
     color: #3c97bf;
     text-decoration: none;
 }
-</style>
-
-
-<div class="container" id="container">
-	
-	<div class="form-container sign-in-container">
-		<form action="#">
-			<h1>Sign in</h1>
-			<input type="email" placeholder="Email" />
-			<input type="password" placeholder="Password" />
-			<a href="#">Forgot your password?</a>
-			<button>Sign In</button>
-		</form>
-	</div>
-	<div class="overlay-container">
-		<div class="overlay">
-			<div class="overlay-panel overlay-right">
-				<h1>Hello There!</h1>
-				<p>Dont have an account? Please check the email you were sent upon purchase</p>
-                <br>
-                <p>Still cant login?</p>
-				<button class="ghost" id="signUp">Request An Account</button>
-			</div>
-		</div>
-	</div>
-</div>
-
