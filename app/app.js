@@ -27,9 +27,11 @@ app.get('/login',(request,response)=>{
     });
 });
 
+const port = 2000;
+const addr = "http://localhost:2000"
 // Start Application
-app.listen(2000, function () {
+app.listen(port, function () {
   console.clear();
-  console.log('Vertigo By Oasis Interactive\n[+] Running');
+  console.log('Vertigo By Oasis Interactive\n[+] Running on port',port,"\n[ADDR]",addr);
 
 });
