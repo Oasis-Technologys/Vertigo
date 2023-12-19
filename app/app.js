@@ -19,6 +19,13 @@ app.get('/', (request, response) => {
     });
   });
 
+app.get('/login',(request,response)=>{
+    response.render('login',{
+      subject: 'Login',
+      Name: 'User Login',
+      Link: '/'
+    });
+});
 
 // Start Application
 app.listen(3000, function () {
