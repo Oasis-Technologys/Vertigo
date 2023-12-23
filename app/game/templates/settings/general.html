@@ -1,0 +1,125 @@
+<html lang="en">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" type="text/css" href="../static/css/main.css" />
+<link rel="stylesheet" type="text/css" href="../static/css/button.css" />
+<link rel="stylesheet" type="text/css" href="../static/css/text.css" />
+<link rel="stylesheet" type="text/css" href="../static/css/bg.css" />
+<link rel="stylesheet" type="text/css" href="../static/css/play.css" />
+<link rel="stylesheet" type="text/css" href="../static/css/settings.css" />
+<script src="../static/js/main.js"></script>
+
+<title>Primal - In Settings...</title>
+
+<div class="playpause">
+    <audio id="audioPlayer" src="{{ audio_file }}" type="audio/wav"></audio>
+</div>
+
+<div class="playpause">
+    <div class="d-1 play" id="toggleMusic"><img src="../static/img/mute.png" height="30" width="30"></img></div>
+  </div>
+
+  <div class="settingslogo">
+    <h1 class="jt --debug">
+        <span class="jt__row">
+            <span class="jt__text">Primal</span>
+        </span>
+        <span class="jt__row jt__row--sibling" aria-hidden="true">
+            <span class="jt__text">Primal</span>
+        </span>
+        <span class="jt__row jt__row--sibling" aria-hidden="true">
+            <span class="jt__text">Primal</span>
+        </span>
+        <span class="jt__row jt__row--sibling" aria-hidden="true">
+            <span class="jt__text">Primal</span>
+        </span>
+    </h1>
+  </div>
+<div class="svg">
+    <svg width="0%" height="0%" xmlns="http://www.w3.org/2000/svg" version="1.1">
+        <defs>
+          <filter id="blue">
+                          <feGaussianBlur in="SourceGraphic" stdDeviation=".8" />
+            <feConvolveMatrix  preserveAlpha="true"
+                kernelMatrix="-2 -2 -2
+                              -2 16 -2
+                              -2 -2 -2"/>
+              <filter id="EmbossFilter" >
+          <feConvolveMatrix order="5 5"
+            preserveAlpha="true" 
+            kernelMatrix="-1 0 0 0 0 0 -2 0 0 0 0 0 3 0 0 0 0 0 0 0 0 0 0 0 0"/>
+        </filter>
+      
+                  <feColorMatrix
+              type="matrix"
+              values="0  0  0  0  0
+                      0  .95  0  0  0
+                      0  1 0  0  0
+                      0  0  0  1  0"/>
+      
+          </filter>
+          
+              <filter id="red">
+                    <feGaussianBlur in="SourceGraphic" stdDeviation=".8" />
+            <feConvolveMatrix  preserveAlpha="true"
+                kernelMatrix="-2 -2 -2
+                              -2 16 -2
+                              -2 -2 -2"/>
+        <filter id="EmbossFilter" >
+        <filter id="EmbossFilter" >
+          <feConvolveMatrix order="5 5"
+            preserveAlpha="true" 
+            kernelMatrix="-1 0 0 0 0 0 -2 0 0 0 0 0 3 0 0 0 0 0 0 0 0 0 0 0 0"/>
+        </filter>
+        </filter>
+                  <feColorMatrix
+              type="matrix"
+              values="0  1  0  0  0
+                      0  0  0  0  0
+                      0  0  0  0  0
+                      0  0  0  1  0"/>
+      
+          </filter>
+      
+        </defs>
+        
+      </svg>
+      
+    </div>
+      <div class="images">
+        <div class="img1">
+      <img src="../static/img/settingsbg.jpg">
+        </div>
+      
+          <div class="img2">
+      <img src="../static/img/settingsbg.jpg">
+        </div>
+        
+        <div class="img3">
+      <img src="../static/img/settingsbg.jpg">
+        </div>
+</div>
+
+<div class="settingsdiv item">
+  <h1>General</h1>
+  </div>
+<div class="settingheader item">
+
+    <div class="d-2 play" id="general">General</div>
+  
+    <div class="d-2 play" id="audio">Audio</div>
+  
+    <div class="d-2 play" id="gameplay">Gameplay</div>
+  
+    <div class="d-2 play" id="code">Code</div>
+  
+    <div class="d-2 play" id="account">Account</div>
+  
+    <div class="d-2 play" id="developer">Developer Options</div>
+
+  </div>
+
+
+<div class="settingsbackbtn">
+    <div class="d-2 play" id="back">Back</div>
+</div>

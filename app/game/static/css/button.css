@@ -56,13 +56,13 @@
     
     
     padding:8px;
-    color:blue;
+    color:tomato;
     transition: 0.5s;
     border: solid transparent;
     border-width:var(--b) calc(var(--c) + var(--b)) calc(var(--c) + var(--b)) var(--b);
     background:
-      linear-gradient(  45deg,transparent var(--g),rgba(255,255,255,0.6) 0) right  /var(--c) 100%,
-      linear-gradient(-135deg,transparent var(--g),rgba(255,255,255,0.3) 0) bottom /100% var(--c),
+      linear-gradient(  45deg,transparent var(--g),#6c2424 0) right  /var(--c) 100%,
+      linear-gradient(-135deg,transparent var(--g),#de1d1d 0) bottom /100% var(--c),
       conic-gradient(from -180deg at top var(--b) left var(--b),currentColor 270deg,transparent 0),
       conic-gradient(from    0deg at bottom calc(var(--c) + var(--b)) right calc(var(--c) + var(--b)),currentColor 270deg,transparent 0) ;
     background-repeat:no-repeat;

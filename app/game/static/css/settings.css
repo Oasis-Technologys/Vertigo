@@ -1,0 +1,48 @@
+.settingheader{
+    position: absolute;
+    transform: translate(-50%, -50%);
+    z-index: 500;
+    padding-right: 210rem;
+    justify-items: center;
+  }
+  .settingheader p{
+    font-size: 50%;
+  }
+  .settingslogo{
+    position: absolute;
+    top: 10%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+  }
+
+.settingsbackbtn{
+        position: absolute;
+        z-index: 500;
+        top: 90%;
+        left: 45%;
+        font-size: 10px;
+}
+.settingsdiv{
+    position: absolute;
+    top: 55%;
+    left: 50%;
+    background-color: rgb(119, 28, 28);
+    height: 70%;
+    width: 60%;
+    transform: translate(-50%, -50%);
+    z-index: 200;
+    opacity: 70%;
+}
+
+.settingsdiv p{
+    font-size: 50%;
+    color: white;
+    opacity: 100%;
+}
+.settingsdiv h1{
+    opacity: 100%;
+    font-size: 75%;
+    color: white;
+    text-align: center;
+}

@@ -7,6 +7,7 @@
   text-transform: uppercase;
   font-display: swap;
   text-shadow: 0 0 10px tomato;
+  z-index: 2;
 }
 
 .jt__row {
@@ -86,7 +87,7 @@
 * { box-sizing: border-box }
 
 html, body {
- 
+  z-index: 500;
   background: black;
   color: tomato;
   height: 100%;
