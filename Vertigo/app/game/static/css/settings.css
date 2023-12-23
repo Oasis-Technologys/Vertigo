@@ -19,8 +19,8 @@
 .settingsbackbtn{
         position: absolute;
         z-index: 500;
-        top: 90%;
-        left: 45%;
+        top: 42rem;
+        left: 45rem;
         font-size: 10px;
 }
 .settingsdiv{
