@@ -1,4 +1,5 @@
 
+import os
 from flask import Flask, render_template
 import random as r
 
@@ -53,4 +54,6 @@ def test():
 
 
 if __name__ == "__main__":
+    os.system('cls')
+    print("Primal MK1 || Flask Console \n")
     app.run()
