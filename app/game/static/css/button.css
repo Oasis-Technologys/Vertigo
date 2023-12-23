@@ -1,16 +1,18 @@
 .button-container {
     position: absolute;
-    top: 60%;
-    left: 75%;
+    top: 50%;
+    left: 15%;
+    right: 65%;
     transform: translate(-50%, -50%);
     z-index: 2;
   }
-  .credit{
+ 
+  .logo{
     position: absolute;
+    top: 75%;
+    left: 75%;
+    transform: translate(-50%, -50%);
     z-index: 2;
-    top: 90%;
-    left: 62.5%;
-    font-size: 10px;
   }
 .d-1 {
     --b:4px;   /* border length*/
