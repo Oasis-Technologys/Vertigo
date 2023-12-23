@@ -12,7 +12,7 @@ svg {
   }
   .item{
     z-index: 500;
-    
+    top: 50%;
   }
   .play{
     z-index: 500;

@@ -8,6 +8,16 @@
   .credit p{
     font-size: 50%;
   }
+  .playpause{
+    position: absolute;
+    top: 6%;
+    left: 95%;
+    transform: translate(-50%, -50%);
+    z-index: 500;
+  }
+  .playpause p{
+    font-size: 50%;
+  }
   .playerdata{
     position: absolute;
     z-index: 1;
