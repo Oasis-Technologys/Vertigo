@@ -1,0 +1,56 @@
+svg {
+    display: none;
+    z-index: -1;
+  }
+  body {
+    margin: 0;
+    padding: 0;
+    background: black;
+    z-index: 1;
+    overflow-y: hidden;
+    overflow-x: hidden;
+  }
+  .item{
+    z-index: 500;
+    
+  }
+  .play{
+    z-index: 500;
+    top: 50%;
+ 
+  }
+  .images {
+    width: 100vw;
+    height: 100vh;
+    position: relative;
+  }
+  
+  .images img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    display: block;
+  } 
+  
+  .img1 img {
+      z-index: 10;
+      filter: brightness(20%);
+    opacity: .8;
+  }  
+  
+  .img2 img {
+          filter: url('#blue');
+    mix-blend-mode: exclusion;
+      z-index: 6;
+    left: -2px;}
+  
+  .img3 img {
+          filter: url('#red');
+    mix-blend-mode: exclusion;
+      z-index: 100;
+    left: 2px;
+  }
+  
