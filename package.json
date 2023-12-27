@@ -1,0 +1,18 @@
+{
+  "dependencies": {
+    "babylonjs": "^6.35.0"
+  },
+  "name": "primal",
+  "version": "1.0.0",
+  "main": "babylon.js",
+  "devDependencies": {
+    "@babylonjs/core": "^6.35.0",
+    "@babylonjs/inspector": "^6.35.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}
